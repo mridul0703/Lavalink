@@ -1,0 +1,34 @@
+server:
+    port: ${PORT}
+
+spring:
+    main:
+        banner-mode: "off"
+
+lavalink:
+    server:
+        password: 07@Mridul
+        sources:
+            youtube: true
+            bandcamp: true
+            soundcloud: true
+            twitch: true
+            vimeo: true
+            http: true
+            local: false
+
+metrics:
+    prometheus:
+        enabled: false
+    gc:
+        active: false
+
+sentry:
+    dsn: ""
+    environment: ""
+
+logging:
+    file:
+        max-history: 30
+    level:
+        root: INFO
