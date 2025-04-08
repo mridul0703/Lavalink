@@ -7,7 +7,7 @@ spring:
 
 lavalink:
     server:
-        password: 07@Mridul
+        password: ${password}
         sources:
             youtube: true
             bandcamp: true
