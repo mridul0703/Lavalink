@@ -55,7 +55,7 @@ docker run -p 2333:2333 lavalink
 ```yaml
 lavalink:
   server:
-    password: 07@Mridul
+    password: ${password}
     sources:
       youtube: true
       soundcloud: true
@@ -81,8 +81,5 @@ This project is for educational and personal use only. Lavalink is developed by 
 
 ---
 
-## 👤 Author
-
-**Your Name**  
 Feel free to contribute or fork this project!
 
